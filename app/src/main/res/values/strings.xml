@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TFSDangerous</string>
+    <string name="student">Student</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="visitor">Visitor</string>
+    <string name="teacher">Teacher</string>
+    <string name="go">Go</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+</resources>
