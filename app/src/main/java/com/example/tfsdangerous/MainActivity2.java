@@ -3,13 +3,14 @@ package com.example.tfsdangerous;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdView;
+
 
 public class MainActivity2 extends AppCompatActivity {
-    public RatingBar TFSMandatedRating2;
+
     public TextView nom2, prenom2, email2, phone2, rolet;
 
 
@@ -22,12 +23,12 @@ public class MainActivity2 extends AppCompatActivity {
         email2 = findViewById(R.id.email2);
         phone2 = findViewById(R.id.phone2);
         rolet = findViewById(R.id.rolet);
-        TFSMandatedRating2 = findViewById(R.id.TFSMandatedRating2);
+
         Bundle extras=getIntent().getExtras();
         if(extras!=null){
             String Lname = extras.getString("Message1");
             nom2.setText(Lname);
-            String Fname = extras.getString("Message2");
+           String Fname = extras.getString("Message2");
             prenom2.setText(Fname);
             String email = extras.getString("Message3");
             email2.setText(email);
